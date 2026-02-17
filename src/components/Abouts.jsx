@@ -1,5 +1,5 @@
 import "./Abouts.css"
-import profile from "../assets/profile.jpg"
+import { bottomImage } from "../assets/index.js"
 export default function Abouts() {
 
     return (
@@ -8,7 +8,7 @@ export default function Abouts() {
                 <h1 className="aboutPageHeading">About</h1>
                 <div id="aboutInnerDiv">
                     <div className="aboutPageImage">
-                        <img src={profile} alt="About me" />
+                        <img src={bottomImage} alt="About me" />
                     </div>
 
                     <div className="aboutPageText">
