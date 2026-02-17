@@ -1,5 +1,5 @@
 import "./Abouts.css"
-import { bottomImage } from "../assets/index.js"
+import bottomImage  from "../assets/bottom-image.jpg"
 export default function Abouts() {
 
     return (
