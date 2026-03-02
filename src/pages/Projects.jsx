@@ -11,7 +11,7 @@ export default function Projects(){
                 <div className="Project-container">
         
         
-                    <Card title={"Wanderlust"} image={nodejs} techStack={techStack} liveDemoLink={"https://www.google.com"} GithubLink={""}/>
+                    <Card title={"Wanderlust"} image={"https://i2.wp.com/clipartcraft.com/images/question-mark-clipart-transparent-6.png"} techStack={techStack} liveDemoLink={"https://doubt-portal.netlify.app/"} GithubLink={"https://github.com/niteshjangir63/Student-Doubt-Portal-Backend.git"}/>
                    
                 </div>
     
