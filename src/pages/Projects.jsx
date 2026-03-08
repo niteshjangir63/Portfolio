@@ -2,8 +2,11 @@ import "./Project.css"
 import Card from "../components/Card";
 import { Doubt } from "../assets/index";
 
+
+
 export default function Projects(){
     let techStack = ["HTML","CSS","JS","React","Express","MongoDB"]
+    
     
     return (<>
 

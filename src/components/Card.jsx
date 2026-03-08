@@ -1,12 +1,18 @@
 import "./Card.css"
 import { Link } from "react-router"
+import Loader from "../components/Loader/Loader"
+import {ImageLoader} from "../hooks/ImageLoader";
 export default function Card({image,title,techStack,liveDemoLink,GithubLink}){
+
+    const status = ImageLoader(image);
 
     return (
 
         <div id="card">
             <div className="cardImage">
-                <img src={image} alt="image" />
+                {status == "loading" && <Loader/>}
+                {status == "error" && <h1>image not found</h1>}
+                {status == "loaded" && <img src={image} alt="image" />}
             </div>
 
         <div className="cardInfo">
