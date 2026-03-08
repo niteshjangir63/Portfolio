@@ -20,10 +20,8 @@ export default function Skill({data}) {
             </div>
             
             <div className="outer-bar">
-            <div className="bar" style={{width:"100%"}}>
-                <div className="progress"style={{width:`${detail.progress}%`}} >{detail.progress}%</div>
-            </div>
-            <p>Building reusable components, hooks, and routing with React Router.</p>
+            
+            <p>{detail.caption}</p>
             </div>
     </div>
 

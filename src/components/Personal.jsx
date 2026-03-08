@@ -1,30 +1,33 @@
 import profile from "../assets/profile.jpeg"
 import "./Personal.css"
-import {Resume} from "../assets/index"
+import { Resume } from "../assets/index"
+import { ImageLoader } from "../hooks/ImageLoader";
+import Loader from "./Loader/Loader";
 
 export default function Personal() {
 
+    const status = ImageLoader(profile);
 
-const downloadResume = () => {
-  const link = document.createElement("a");
-  link.href = Resume; 
-  link.download = "Nitesh_Resume.pdf";
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-};
-
-
-
+    const downloadResume = () => {
+        const link = document.createElement("a");
+        link.href = Resume;
+        link.download = "Nitesh_Resume.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
 
 
-<button onClick={downloadResume}>Download Resume</button>
+
+
+
+    <button onClick={downloadResume}>Download Resume</button>
 
 
     return (
 
         <div id="Personal">
-
+            
             <div className="info">
 
                 <div id="title">
@@ -53,7 +56,10 @@ const downloadResume = () => {
             </div>
 
             <div className="image">
-                <img src={profile} alt="" />
+                
+                {status == "loading" && <Loader/>}
+                {status == "error" && <h1>image not found</h1>}
+                {status == "loaded" && <img src={profile} alt="" />}
             </div>
 
 
