@@ -9,8 +9,9 @@ import react from "./react.svg"
 import ejs from "./icons8-ejs-48.png"
 import express from "./icons8-express-js-64.png"
 import Resume from "./NITESH_JANGIR_RESUME (1).pdf"
+import Doubt from "./Doubt.png"
 
 export {
 
-    html,css,js,mongodb,mysql,nodejs,redux,react,ejs,express,Resume
+    html,css,js,mongodb,mysql,nodejs,redux,react,ejs,express,Resume,Doubt
 }

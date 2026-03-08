@@ -1,6 +1,6 @@
 import "./Project.css"
 import Card from "../components/Card";
-import { nodejs } from "../assets/index";
+import { Doubt } from "../assets/index";
 
 export default function Projects(){
     let techStack = ["HTML","CSS","JS","React","Express","MongoDB"]
@@ -11,7 +11,7 @@ export default function Projects(){
                 <div className="Project-container">
         
         
-                    <Card title={"Doubt Portal"} image={"https://png.pngtree.com/png-clipart/20210310/original/pngtree-thinking-doubt-question-mark-character-expression-png-image_5939602.jpg"} techStack={techStack} liveDemoLink={"http://doubt-portal.jnitesh054.workers.dev/"} GithubLink={"https://github.com/niteshjangir63/Student-Doubt-Portal-Backend.git"}/>
+                    <Card title={"Doubt Portal"} image={Doubt} techStack={techStack} liveDemoLink={"http://doubt-portal.jnitesh054.workers.dev/"} GithubLink={"https://github.com/niteshjangir63/Student-Doubt-Portal-Backend.git"}/>
                    
                 </div>
     
