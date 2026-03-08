@@ -4,7 +4,7 @@ import {html,css,js,mongodb,mysql,nodejs,redux,react,ejs,express} from "../asset
 import "./Skills.css";
 export default function Skills() {
 
-    const [card,setCard] = useState([{name:"HMTL",image:html,progress:90,caption:"Semantic structure,forms,accessiblity"},
+    const [card,setCard] = useState([{name:"HTML",image:html,progress:90,caption:"Semantic structure,forms,accessiblity"},
         {name:"CSS",image:css,progress:80,caption:"Flexbox, Grid, responsive layouts"},
         {name:"Javascript",image:js,progress:75,caption:"DOM manimulation, async APIs"},
         {name:"ReactJS",image:react,progress:75,caption:"Hooks, resusable comoponent, routing"},
