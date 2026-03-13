@@ -10,6 +10,9 @@ export default function Skill({ data }) {
         const status = ImageLoader(detail.image)
 
         return (
+<>
+
+          
           <div className="skill-card" key={index}>
             <div className="card-inner">
               
@@ -35,6 +38,8 @@ export default function Skill({ data }) {
 
             </div>
           </div>
+
+          </>
         )
       })}
     </>
