@@ -10,8 +10,9 @@ import ejs from "./icons8-ejs-48.png"
 import express from "./icons8-express-js-64.png"
 import Resume from "./NITESH_JANGIR_RESUME (1).pdf"
 import Doubt from "./Doubt.png"
+import Threads from "./threads.png"
 
 export {
 
-    html,css,js,mongodb,mysql,nodejs,redux,react,ejs,express,Resume,Doubt
+    html,css,js,mongodb,mysql,nodejs,redux,react,ejs,express,Resume,Doubt,Threads
 }

@@ -21,7 +21,7 @@ export default function Nav() {
         <>
 
             <nav id="nav" >
-                <Link id="logo" className="navAnimation" to="/"> OurHub <VscDebugAll/></Link>
+                <Link id="logo" className="navAnimation" to="/"> Nitesh <VscDebugAll/></Link>
                
                 <div id="links">
 
